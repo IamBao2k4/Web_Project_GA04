@@ -9,8 +9,8 @@ var id = urlParams.get('id');
 
 // const urlParams = window.location.search; // Lấy tham số truy vấn từ URL
 // const productId = urlParams.get("id"); // Lấy productId từ URL
-const apiImg = "http://localhost:3000/data/images";
-const apiProduct = `http://localhost:3000/data/products`;
+const apiImg = "https://web-project-ga04-vercel.vercel.app/data/images";
+const apiProduct = `https://web-project-ga04-vercel.vercel.app/data/products`;
 let imgData;
 let productData;
 
