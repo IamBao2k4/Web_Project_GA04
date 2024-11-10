@@ -1,4 +1,4 @@
-const apiUsers = "http://localhost:3000/data/users"; // URL của API mà bạn đã tạo trong app.js
+const apiUsers = "https://web-project-ga04-vercel.vercel.app/data/users"; // URL của API mà bạn đã tạo trong app.js
 let users;
 
 const formPopup = document.querySelector(".form-popup");
