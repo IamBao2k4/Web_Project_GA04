@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniro</title>
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="/css/reset.css" />
+
+        <!-- Fonts Poppins -->
+        <link rel="stylesheet" href="/fonts/stylesheet.css" />
+
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="/css/home.css" />
+
+        <!-- Tailwind CSS -->
+        <link rel="stylesheet" href="/css/tailwind.css" />
+
+        <!-- Login CSS -->
+        <link rel="stylesheet" href="/css/login.css" />
+    </head>
+    <body class="show-popup">
+        <!-- Header -->
+        <header class="header">
+            <div class="content w-[1286px]">
+                <nav class="navbar flex justify-between items-center py-[30px]">
+                    <span class="hamburger-btn material-symbols-rounded"
+                        >menu</span
+                    >
+                    <img
+                        src="/img/logo.svg"
+                        alt="Furniro"
+                        loading="lazy"
+                    />
+                    <ul class="links flex justify-between">
+                        <span class="close-btn material-symbols-rounded"
+                            >close</span
+                        >
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./aboutPage.html">About</a></li>
+                        <li><a href="./contactPage.html">Contact</a></li>
+                    </ul>
+                    <div class="icon flex justify-between">
+                        <button href="#!" class="login-btn">
+                            <img
+                                src="/img/profile.svg"
+                                alt="Profile"
+                                loading="lazy"
+                            />
+                        </button>
+                        <button href="#!" class="icon-search">
+                            <img
+                                src="/img/search.svg"
+                                alt="Search"
+                                loading="lazy"
+                            />
+                        </button>
+                        <button href="" class="icon-favorites">
+                            <img
+                                src="/img/favorites.svg"
+                                alt="Favorites"
+                                loading="lazy"
+                            />
+                        </button>
+                        <button href="" class="icon-cart">
+                            <img
+                                src="/img/cart.svg"
+                                alt="Cart"
+                                loading="lazy"
+                            />
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+            <button class="close-login">close</button>
+            <div class="form-box login">
+                <div class="form-details">
+                    <h2>Welcome Back</h2>
+                    <p>
+                        Please log in using your personal information to stay
+                        connected with us.
+                    </p>
+                </div>
+                <div class="form-content">
+                    <h2>LOGIN</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" id="email" required />
+                            <label>Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="pass" required />
+                            <label>Password</label>
+                        </div>
+                        <a href="#" class="forgot-pass-link"
+                            >Forgot password?</a
+                        >
+                        <button type="submit" id="signin-btn">
+                            Log In
+                        </button>
+                    </form>
+                    <div class="bottom-link">
+                        Don't have an account?
+                        <a href="#" id="signup-link">Signup</a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-box signup">
+                <div class="form-details">
+                    <h2>Create Account</h2>
+                    <p>
+                        To become a part of our community, please sign up using
+                        your personal information.
+                    </p>
+                </div>
+                <div class="form-content">
+                    <h2>SIGNUP</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" id="email-signup" required />
+                            <label>Enter your email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="pass-signup" required />
+                            <label>Create password</label>
+                        </div>
+                        <div class="policy-text">
+                            <input type="checkbox" id="policy" />
+                            <label for="policy">
+                                I agree the
+                                <a href="#" class="option"
+                                    >Terms & Conditions</a
+                                >
+                            </label>
+                        </div>
+                        <button type="submit" id="signup-btn">Sign Up</button>
+                    </form>
+                    <div class="bottom-link">
+                        Already have an account?
+                        <a href="#" id="login-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="module" src="/js/login.js"></script>
+</html>

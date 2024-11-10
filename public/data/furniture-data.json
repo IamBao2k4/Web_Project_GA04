@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Modern Sofa",
+      "description": "Comfortable and stylish sofa",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "name": "Dining Table",
+      "description": "Elegant wooden dining table",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "name": "Office Chair",
+      "description": "Ergonomic office chair with lumbar support",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Queen Bed",
+      "description": "Spacious and comfortable queen bed",
+      "price": 1500
+    },
+    {
+      "id": 5,
+      "name": "Bookshelf",
+      "description": "Tall and sturdy bookshelf",
+      "price": 200
+    },
+    {
+      "id": 6,
+      "name": "Coffee Table",
+      "description": "Modern glass coffee table",
+      "price": 250
+    },
+    {
+      "id": 7,
+      "name": "Wardrobe",
+      "description": "Spacious wardrobe with sliding doors",
+      "price": 1000
+    },
+    {
+      "id": 8,
+      "name": "TV Stand",
+      "description": "Stylish TV stand with storage",
+      "price": 400
+    },
+    {
+      "id": 9,
+      "name": "Recliner Chair",
+      "description": "Comfortable recliner chair",
+      "price": 600
+    },
+    {
+      "id": 10,
+      "name": "Dining Chairs",
+      "description": "Set of 4 elegant dining chairs",
+      "price": 500
+    },
+    {
+      "id": 11,
+      "name": "Nightstand",
+      "description": "Modern nightstand with drawers",
+      "price": 150
+    },
+    {
+      "id": 12,
+      "name": "Desk",
+      "description": "Spacious office desk",
+      "price": 700
+    },
+    {
+      "id": 13,
+      "name": "Armchair",
+      "description": "Comfortable armchair with cushions",
+      "price": 350
+    },
+    {
+      "id": 14,
+      "name": "Dresser",
+      "description": "Large dresser with multiple drawers",
+      "price": 900
+    },
+    {
+      "id": 15,
+      "name": "Bar Stools",
+      "description": "Set of 2 modern bar stools",
+      "price": 200
+    },
+    {
+      "id": 16,
+      "name": "Patio Set",
+      "description": "Outdoor patio set with table and chairs",
+      "price": 800
+    },
+    {
+      "id": 17,
+      "name": "Bookshelf",
+      "description": "Compact bookshelf for small spaces",
+      "price": 150
+    },
+    {
+      "id": 18,
+      "name": "Sectional Sofa",
+      "description": "Large sectional sofa with chaise",
+      "price": 2000
+    },
+    {
+      "id": 19,
+      "name": "Ottoman",
+      "description": "Versatile ottoman with storage",
+      "price": 250
+    },
+    {
+      "id": 20,
+      "name": "Console Table",
+      "description": "Elegant console table for entryway",
+      "price": 300
+    },
+    {
+      "id": 21,
+      "name": "Vanity Table",
+      "description": "Stylish vanity table with mirror",
+      "price": 500
+    },
+    {
+      "id": 22,
+      "name": "Futon",
+      "description": "Convertible futon sofa bed",
+      "price": 400
+    },
+    {
+      "id": 23,
+      "name": "Chaise Lounge",
+      "description": "Luxurious chaise lounge",
+      "price": 700
+    },
+    {
+      "id": 24,
+      "name": "Kitchen Island",
+      "description": "Functional kitchen island with storage",
+      "price": 1200
+    },
+    {
+      "id": 25,
+      "name": "Rocking Chair",
+      "description": "Classic wooden rocking chair",
+      "price": 300
+    },
+    {
+      "id": 26,
+      "name": "Shoe Rack",
+      "description": "Compact shoe rack with multiple tiers",
+      "price": 100
+    },
+    {
+      "id": 27,
+      "name": "TV Cabinet",
+      "description": "Modern TV cabinet with shelves",
+      "price": 600
+    },
+    {
+      "id": 28,
+      "name": "Dining Bench",
+      "description": "Wooden dining bench",
+      "price": 250
+    },
+    {
+      "id": 29,
+      "name": "Side Table",
+      "description": "Small side table with drawer",
+      "price": 150
+    },
+    {
+      "id": 30,
+      "name": "Loveseat",
+      "description": "Comfortable loveseat for two",
+      "price": 800
+    }
+  ]
+  

@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+
+.content {
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.permanent {
+    background: #fff;
+
+    position: sticky;
+    top: -22px;
+    z-index: 1;
+}
+
+.header .content .nav-bar ul {
+    width: calc(430 / 1286 * 100%);
+}
+
+.header .content .nav-bar .icon {
+    width: calc(247 / 1286 * 100%);
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/home-background.png);
+}
+
+.button {
+    display: inline-block;
+
+    min-width: 176px;
+
+    font-weight: bold;
+
+    color: #fff;
+    background: #b88e2f;
+}
+
+.browse .list-items {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 62.29px;
+}
+
+.browse .list-items .item {
+    flex: 1;
+}
+
+.browse .list-items .item .item-picture {
+    width: 100%;
+    height: 480px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+}
+
+.browse .list-items .item .item-info {
+    margin-top: 30px;
+
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+
+    color: #333;
+}
+
+.products .list-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+
+    margin-top: 32px;
+}
+
+.products .list-product .product {
+    height: 446px;
+
+    background: #f4f5f7;
+
+    position: relative;
+}
+
+.products .list-product .product .product-button .status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    font-weight: 500;
+
+    color: #fff;
+
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.products .list-product .product .product-button .product-images {
+    width: 100%;
+    height: 301px;
+
+    object-fit: cover;
+}
+
+.products .list-product .product .product-button .product-info {
+    width: 100%;
+    padding: 16px 20px 30px 16px;
+}
+
+.products .list-product .product .product-button .product-info .product-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: #3a3a3a;
+}
+
+.products .list-product .product .product-button .product-info .product-desc {
+    margin-top: 8px;
+
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: #898989;
+}
+
+.products .list-product .product .product-button .product-info .product-price {
+    display: flex;
+    align-items: center;
+
+    margin-top: 8px;
+}
+
+.products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-price
+    .selling-price {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+    color: #3a3a3a;
+
+    white-space: nowrap;
+}
+
+.products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-price
+    .original-price {
+    margin-left: 16px;
+
+    color: #b0b0b0;
+
+    white-space: nowrap;
+}
+
+.products .show-more:hover {
+    color: #fff;
+    background: #b88e2f;
+}
+
+.inspiration {
+    overflow: hidden;
+}
+
+.inspiration .items-carousel {
+    display: flex;
+    gap: 24px;
+
+    max-width: 1196px;
+}
+
+.inspiration .items-carousel .item-slide {
+    flex-shrink: 0;
+}
+
+.inspiration .items-carousel .item-slide .item-picture {
+    width: 372px;
+    height: 486px;
+
+    object-fit: cover;
+}
+
+.inspiration .items-carousel .item-slide:first-of-type .item-picture {
+    width: 404px;
+    height: 582px;
+}
+
+.inspiration .items-carousel .item-slide:first-of-type .carousel-navigation {
+    display: flex;
+    gap: 20px;
+
+    position: absolute;
+    right: -145px;
+    bottom: 29px;
+}
+
+.inspiration
+    .items-carousel
+    .item-slide:first-of-type
+    .carousel-navigation
+    .dot {
+    width: 11px;
+    height: 11px;
+
+    border-radius: 50%;
+
+    background: #d8d8d8;
+}
+
+.furniture .furniture-picture .img {
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+/* Footer */
+
+.footer .content .info {
+    display: flex;
+    justify-content: start;
+    gap: 136px;
+}
+
+.footer .content .info .column .desc,
+.footer .content .info .column .list,
+.footer .content .info .column .input-container {
+    margin-top: 43px;
+}
+
+.footer .content .info .column-list .list .item + .item {
+    margin-top: 46px;
+}
+
+.footer .content .info .column-list .heading {
+    font-weight: 500;
+
+    color: #9f9f9f;
+}
+
+.footer .content .info .column-list .list .item a {
+    font-style: 500;
+
+    color: #000;
+
+    white-space: nowrap;
+}

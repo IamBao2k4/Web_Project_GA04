@@ -1,0 +1,29 @@
+.footer .content .info {
+    display: flex;
+    justify-content: start;
+    gap: 136px;
+}
+
+.footer .content .info .column .desc,
+.footer .content .info .column .list,
+.footer .content .info .column .input-container {
+    margin-top: 43px;
+}
+
+.footer .content .info .column-list .list .item + .item {
+    margin-top: 46px;
+}
+
+.footer .content .info .column-list .heading {
+    font-weight: 500;
+
+    color: #9f9f9f;
+}
+
+.footer .content .info .column-list .list .item a {
+    font-style: 500;
+
+    color: #000;
+
+    white-space: nowrap;
+}

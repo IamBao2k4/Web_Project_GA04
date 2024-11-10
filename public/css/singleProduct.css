@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
+
+.content {
+    width: 1240px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.header .content {
+    max-width: calc(100% - 48px);
+}
+
+.header .content .nav-bar ul {
+    width: calc(430 / 1286 * 100%);
+}
+
+.header .content .nav-bar .icon {
+    width: calc(247 / 1286 * 100%);
+}
+
+.breadcrumbBar .content .breadcrumb a {
+    font-weight: 400;
+
+    color: #9f9f9f;
+}
+
+.product-details .content .list-picture .picture-product {
+    width: 76px;
+    height: 80px;
+    margin-top: 32px;
+}
+
+.product-details .content .list-picture .picture-product:first-child {
+    margin-top: 0;
+}
+
+.product-details .content .details .info .evaluate .stars img + img {
+    margin-left: 17px;
+}
+
+.product-details .content .details .info .size .size-option div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    background: #f9f1e7;
+}
+
+.product-details .content .details .info .color .color-option div {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+}
+
+.product-details .content .details .info .button div {
+    border: 1px solid #000;
+
+    border-radius: 15px;
+}
+
+.product-details .content .details .info .note .row {
+    display: flex;
+}
+
+.product-details .content .details .info .note .row + .row {
+    margin-top: 12px;
+}
+
+.product-details .content .details .info .note .row .topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 95px;
+}
+
+.product-details .content .details .info .note .row .info {
+    margin-left: 12px;
+}
+
+.product-details
+    .content
+    .details
+    .info
+    .note
+    .row:last-child
+    .info
+    .icon
+    + .icon {
+    margin-left: 25px;
+}
+
+.overview .content .heading .topic {
+    font-size: 2.4rem;
+    font-weight: 400;
+
+    color: #9f9f9f;
+
+    cursor: pointer;
+}
+
+.overview .content .heading .topic:first-child {
+    font-weight: 500;
+
+    color: #000;
+}
+
+.overview .content .desc p {
+    font-weight: 400;
+
+    color: #9f9f9f;
+}
+
+.overview .content .desc p + p {
+    margin-top: 30px;
+}
+
+.overview .content .picture img {
+    width: 49%;
+
+    border-radius: 10px;
+}
+
+.related-products .list-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+
+    margin-top: 26px;
+}
+
+.related-products .list-product .product {
+    height: 446px;
+
+    background: #f4f5f7;
+
+    position: relative;
+}
+
+.related-products .list-product .product .product-button .status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    font-weight: 500;
+
+    color: #fff;
+
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.related-products .list-product .product .product-button .product-images {
+    width: 100%;
+    height: 301px;
+
+    object-fit: cover;
+}
+
+.related-products .list-product .product .product-button .product-info {
+    width: 100%;
+    padding: 16px 20px 30px 16px;
+}
+
+.related-products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: #3a3a3a;
+}
+
+.related-products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-desc {
+    margin-top: 8px;
+
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: #898989;
+}
+
+.related-products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-price {
+    display: flex;
+    align-items: center;
+
+    margin-top: 8px;
+}
+
+.related-products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-price
+    .selling-price {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+    color: #3a3a3a;
+
+    white-space: nowrap;
+}
+
+.related-products
+    .list-product
+    .product
+    .product-button
+    .product-info
+    .product-price
+    .original-price {
+    margin-left: 16px;
+
+    color: #b0b0b0;
+
+    white-space: nowrap;
+}
+
+.footer .content .info {
+    display: flex;
+    justify-content: start;
+    gap: 136px;
+}
+
+.footer .content .info .column .desc,
+.footer .content .info .column .list,
+.footer .content .info .column .input-container {
+    margin-top: 43px;
+}
+
+.footer .content .info .column-list .list .item + .item {
+    margin-top: 46px;
+}
+
+.footer .content .info .column-list .heading {
+    font-weight: 500;
+
+    color: #9f9f9f;
+}
+
+.footer .content .info .column-list .list .item a {
+    font-style: 500;
+
+    color: #000;
+
+    white-space: nowrap;
+}
