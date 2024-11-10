@@ -1,5 +1,5 @@
-const apiUrl = "http://localhost:3000/data/products"; // URL của API mà bạn đã tạo trong app.js
-const apiImg = "http://localhost:3000/data/images";
+const apiUrl = "https://web-project-ga04-vercel.vercel.app/data/products"; // URL của API mà bạn đã tạo trong app.js
+const apiImg = "https://web-project-ga04-vercel.vercel.app/data/images";
 let data;
 let imgData;
 
